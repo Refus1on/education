@@ -22,7 +22,7 @@ ___
 ## Установка
 1. **Скачайте исходники c [GitHub](https://github.com/Refus1on/education)**
 2. **Создайте виртуальное окружение и установите зависимости**
-3. **Запустите `c`**
+3. **Запустите `docker run -it --rm --name redis -p 6379:6379 redis`**
 4. **Запустите приложение в локальной среде командой `python manage.py runserver --settings=education.settings.local`**
 ___
 ## Где скачать:
